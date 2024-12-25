@@ -38,10 +38,19 @@ You can initialize a project from this `azd` template in one of these ways:
 + Use this `azd init` command from an empty local (root) folder:
 
     ```shell
+    mkdir functions-quickstart-typescript-azd
+    cd functions-quickstart-typescript-azd/
     azd init --template functions-quickstart-typescript-azd
     ```
 
     Supply an environment name, such as `flexquickstart` when prompted. In `azd`, the environment is used to maintain a unique deployment context for your app.
+    ```shell
+    npm install -g typescript 
+    npm i -g azure-functions-core-tools@latest --unsafe-perm true
+    npm install @azure/functions --save
+    npm audit fix
+    npm install 
+    ```
 
 + Clone the GitHub template repository locally using the `git clone` command:
 
