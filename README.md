@@ -30,7 +30,7 @@ This source code supports the article [Quickstart: Create and deploy functions t
 + To use Visual Studio Code to run and debug locally:
   + [Visual Studio Code](https://code.visualstudio.com/)
   + [Azure Functions extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
-
+![Image]("https://github.com/nishvaz19/functions-quickstart-typescript-azd/blob/main/Screenshot%20at%202024-12-26%2001-07-29.png")
 ## Initialize the local project
 
 You can initialize a project from this `azd` template in one of these ways:
