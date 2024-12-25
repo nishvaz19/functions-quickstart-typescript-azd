@@ -34,6 +34,10 @@ This source code supports the article [Quickstart: Create and deploy functions t
 ## Initialize the local project
 
 You can initialize a project from this `azd` template in one of these ways:
++ Install azure developer cli first!
+    ```shell
+    curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+    ```
 
 + Use this `azd init` command from an empty local (root) folder:
 
